@@ -1,3 +1,7 @@
+# Link para o PDF do trabalho
+
+Você pode acessar a documentação final do projeto em PDF no repositório do GitHub: Trabalho.pdf
+
 # Trabalho Prático – DGT2823
 
 **Aluno:** Eli Sidney Bicalho Santos
