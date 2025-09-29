@@ -5,63 +5,54 @@
 
 ## Objetivos
 
-* Ler arquivos CSV utilizando a biblioteca **Pandas**.
-* Criar **subconjuntos de dados** a partir do dataset original.
-* Configurar o **número máximo de linhas exibidas** no DataFrame.
-* Exibir as **primeiras e últimas linhas** do DataFrame.
-* Obter **informações gerais** sobre os dados (tipos, valores nulos, etc.).
-* **Limpar e tratar** o dataset para análises futuras.
+* Ler arquivos CSV e manipular dados com **Pandas**.
+* Criar **subconjuntos de dados**.
+* Configurar o **número máximo de linhas exibidas**.
+* Exibir as primeiras e últimas linhas de um conjunto de dados.
+* Obter informações gerais sobre colunas, linhas e dados.
+* Limpar e tratar o dataset para análise.
 
 ## Pré-requisitos
 
-Antes de executar o projeto, é necessário ter:
+* Python 3 instalado.
+* Bibliotecas **pandas** e **numpy**.
 
-1. **Python 3** instalado no computador.
-2. As bibliotecas **pandas** e **numpy** instaladas. Caso ainda não tenha, instale com os comandos:
+## Instalação e execução do projeto
+
+1. **Clonar o repositório do projeto:**
+
+```bash
+git clone https://github.com/EliSidney/ESTACIO-MUNDO-5.git
+```
+
+2. **Acessar a pasta do projeto:**
+
+```bash
+cd ESTACIO-MUNDO-5/mundo5/estacio-mundo-5/DGT2823
+```
+
+3. **Instalar bibliotecas necessárias (se ainda não estiverem instaladas):**
 
 ```bash
 pip install pandas numpy
 ```
 
-## Passo a passo para baixar e executar o projeto
-
-1. **Clonar o repositório do projeto:**
-
-   * Abra o terminal ou Git Bash.
-   * Execute o comando:
-
-   ```bash
-   ```
-
-git clone [https://github.com/EliSidney/ESTACIO-MUNDO-5.git](https://github.com/EliSidney/ESTACIO-MUNDO-5.git)
-
-````
-   - Isso criará uma pasta `ESTACIO-MUNDO-5` com todos os arquivos do projeto.
-
-2. **Acessar a pasta do projeto:**
-```bash
-cd ESTACIO-MUNDO-5/mundo5/estacio-mundo-5/DGT2823
-````
-
-3. **Executar o script Python principal:**
+4. **Executar o script principal:**
 
 ```bash
 python main.py
 ```
 
-* O script irá ler o arquivo CSV, processar os dados e gerar saídas no console.
-* Além disso, ele pode gerar um **arquivo PDF** ou **Markdown** com os resultados tratados.
+## Explicação do trabalho
 
-4. **Visualizar o PDF do trabalho:**
+* O código irá ler o arquivo CSV fornecido, que contém dados inconsistentes e nulos.
+* Durante a execução, o script **corrige os dados do CSV**, substituindo valores nulos, ajustando datas e removendo registros inválidos.
+* Ao final da execução, o DataFrame resultante estará **limpo e pronto para análise**, podendo ser lido e utilizado sem problemas.
+* A execução do código permite verificar todas as transformações aplicadas, garantindo que o arquivo CSV esteja correto e consistente para qualquer análise posterior.
 
-   * Se o script gerar um arquivo PDF (por exemplo, `trabalho.pdf`), você poderá abri-lo diretamente com qualquer leitor de PDF, como Adobe Acrobat Reader ou o visualizador nativo do seu sistema operacional.
-   * Caso o PDF precise ser gerado manualmente a partir de um arquivo Markdown ou Word, siga estes passos:
+## Observações
 
-     1. Abra o arquivo `.md` ou `.docx` gerado pelo script.
-     2. No Word, vá em **Arquivo → Salvar como → PDF**.
-     3. Escolha a pasta de destino e clique em **Salvar**.
+* Os dados originais contêm registros inválidos intencionalmente para que o aluno realize o tratamento adequado.
+* O trabalho deve ser realizado individualmente.
+* É esperado que, após a execução do script, todas as inconsistências do CSV tenham sido corrigidas.
 
-5. **Conferir se tudo funcionou:**
-
-   * Verifique se os dados estão corretos no PDF.
-   * Confira se todas as tabelas e gráficos (se houver) foram incluídos.
